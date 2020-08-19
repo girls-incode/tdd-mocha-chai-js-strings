@@ -15,9 +15,9 @@ Examples:
 'blAhE' => 'blsummerhsummer'
 ```
 
-## Solution:
+### Solution:
 
-### index.js
+#### index.js
 
 ```javascript
 const newStr = 'summer';
@@ -40,7 +40,7 @@ const changeStr = (word) => vowelCount(word) ? replaceVowels(word) : word;
 
 export default changeStr;
 ```
-### test\index.spec.js
+#### test\index.spec.js
 
 ```javascript
 import { expect } from 'chai';
@@ -85,19 +85,19 @@ describe('#changeStr', () => {
 });
 ```
 
-.babelrc
+#### .babelrc
 ```
 {
     "presets": ["@babel/preset-env"]
 }
 ```
 
-.mocharc.yml
+#### .mocharc.yml
 ```
 require: '@babel/register'
 ```
 
-.package.json
+#### .package.json
 ```
 {
   "name": "tdd",
