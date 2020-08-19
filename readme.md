@@ -15,9 +15,9 @@ Examples:
 'blAhE' => 'blsummerhsummer'
 ```
 
-##Solution:
+## Solution:
 
-###index.js
+### index.js
 
 ```javascript
 const newStr = 'summer';
@@ -40,7 +40,7 @@ const changeStr = (word) => vowelCount(word) ? replaceVowels(word) : word;
 
 export default changeStr;
 ```
-###index.spec.js
+### index.spec.js
 
 ```javascript
 import { expect } from 'chai';
