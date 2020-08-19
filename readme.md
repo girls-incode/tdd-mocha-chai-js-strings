@@ -1,6 +1,8 @@
-# TDD with Mocha 8, Chai 4 and Babel 7 for JavaScript Strings
+# Setup Mocha 8, Chai 4 and Babel 7 for JavaScript TDD
 
-Given some strings of different lengths, if the number of vowels are more than 30% of the string length then insert 'summer' for each continuous set (group) of vowels.
+Let's see how to setup Mocha 8, Chai 4 and Babel 7 to test a ES6 string problem.
+
+> Given some strings of different lengths, if the number of vowels are more than 30% of the string length then insert 'summer' for each continuous set (group) of vowels.
 
 Examples:
 
