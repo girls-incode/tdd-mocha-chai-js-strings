@@ -1,4 +1,4 @@
-# Simple TDD with Mocha & Chai for Javascript Strings
+# TDD with Mocha & Chai for Javascript Strings
 
 Given some strings of different lengths, if the number of vowels are more than 30% of the string length then insert 'summer' for each continuous set (group) of vowels.
 
